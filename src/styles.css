@@ -1,0 +1,18 @@
+.App {
+  font-family: sans-serif;
+}
+
+.dropdown-container {
+  border: 1px solid #000;
+  width: 120px;
+}
+
+.dropdown-lists {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-item {
+  border-bottom: 1px solid #000;
+}
