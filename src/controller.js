@@ -23,6 +23,10 @@ class Hello extends Component {
     inputValue: ""
   };
 
+  setFieldValueCustomized = (value) => {
+    this.setState({inputValue:value})
+  }
+
   onChangeHandler = e => {
     // console.log("e", e.target.value);
     const name = e.target.name;
